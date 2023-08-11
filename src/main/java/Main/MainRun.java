@@ -117,12 +117,12 @@ public class MainRun extends javax.swing.JFrame {
         ProgressBar.setMaximum(0);
         getContentPane().add(ProgressBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 246, 220, 10));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario1\\Documents\\NetBeansProjects\\PaulinaAndEdgarHack\\Imagenes\\Recurso 5.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Recurso 5.png"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 202, 491, -1));
 
         jLabel5.setBackground(new java.awt.Color(0, 4, 45));
         jLabel5.setForeground(new java.awt.Color(0, 4, 45));
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario1\\Documents\\NetBeansProjects\\PaulinaAndEdgarHack\\Imagenes\\Recurso 2.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Recurso 2.png"))); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 290));
 
         pack();
